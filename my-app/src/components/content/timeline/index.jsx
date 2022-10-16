@@ -1,3 +1,4 @@
+import styled from "@emotion/styled";
 import {
   Box,
   Button,
@@ -47,8 +48,19 @@ function TextComponent() {
   const handleReset = () => {
     setActiveStep(0);
   };
+
+  const StyledBox = styled(Box)`
+   text-align: center,
+   margin: auto;
+   max-width: 100%;
+   padding: 100px;
+   margin: 10px;
+
+  `;
+
   return (
     <Box>
+      <br></br>
       <Typography variant="h1">🥳</Typography>
       <br></br>
       <Typography variant="h5">
@@ -57,10 +69,8 @@ function TextComponent() {
       <Typography variant="caption" display="block" gutterBottom>
         - Leenuli -
       </Typography>
-      <Typography variant="body1">This is Header</Typography>
-
-      <Box sx={{ maxWidth: 400 }}>
-        <Stepper activeStep={activeStep} orientation="vertical">
+      <StyledBox sx={{ maxWidth: 400 }}>
+        <Stepper activeStep={activeStep} orientation="horizontal">
           {steps.map((step, index) => (
             <Step key={step.label}>
               <StepLabel
@@ -109,7 +119,8 @@ function TextComponent() {
             </Button>
           </Paper>
         )}
-      </Box>
+        <br></br>
+      </StyledBox>
     </Box>
   );
 }

@@ -45,6 +45,74 @@ const theme = createTheme({
         },
       },
     },
+    MuiStepper: {
+      styleOverrides: {
+        root: {
+          color: "#fff",
+          padding: "10px",
+          alignItems: "center",
+        },
+      },
+    },
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "hotpink",
+          color: "#fff",
+        },
+        contained: {
+          backgroundColor: "hotpink",
+        },
+      },
+    },
+
+    MuiStep: {
+      styleOverrides: {
+        root: {
+          color: "#fff",
+        },
+        completed: {
+          color: "hotpink",
+        },
+        alternativeLabel: {
+          color: "hotpink",
+        },
+      },
+    },
+
+    MuiStepIcon: {
+      styleOverrides: {
+        root: {
+          color: "hotpink",
+        },
+        active: {
+          color: "hotpink",
+        },
+        completed: {
+          color: "hotpink",
+        },
+        error: {
+          color: "hotpink",
+        },
+      },
+    },
+    MuiInputBase: {
+      styleOverrides: {
+        root: {
+          color: "hotpink",
+
+          outlineColor: "hotpink",
+          outlineStyle: "hotpink",
+        },
+      },
+    },
+    MuiOutlinedInput: {
+      styleOverrides: {
+        root: {
+          color: "#fff",
+        },
+      },
+    },
   },
 });
 
