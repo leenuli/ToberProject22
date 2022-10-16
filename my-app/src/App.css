@@ -48,6 +48,12 @@
 
 .App-link {
   color: #61dafb;
+  overflow: hidden;
+}
+
+.formStyle {
+  padding: 5px;
+  margin: 5px;
 }
 
 @keyframes App-logo-spin {

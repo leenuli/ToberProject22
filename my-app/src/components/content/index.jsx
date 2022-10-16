@@ -1,4 +1,4 @@
-import TextComponent from "./scrollComponent";
+import TextComponent from "./timeline";
 
 function ContentA() {
   return (
