@@ -96,23 +96,6 @@ const theme = createTheme({
         },
       },
     },
-    MuiInputBase: {
-      styleOverrides: {
-        root: {
-          color: "hotpink",
-
-          outlineColor: "hotpink",
-          outlineStyle: "hotpink",
-        },
-      },
-    },
-    MuiOutlinedInput: {
-      styleOverrides: {
-        root: {
-          color: "#fff",
-        },
-      },
-    },
   },
 });
 

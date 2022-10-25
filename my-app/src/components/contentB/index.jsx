@@ -1,5 +1,11 @@
+import styled from "@emotion/styled";
 import SendIcon from "@mui/icons-material/Send";
 import { Box, Button, TextField, Typography } from "@mui/material";
+
+const StyleTextField = styled(TextField)`
+  color: white;
+  outline: black;
+`;
 
 function ContentB() {
   return (
@@ -8,15 +14,15 @@ function ContentB() {
       <Typography variant="body1">which is very simple style</Typography>
       <Box>
         <div className="formStyle">
-          <TextField fullWidth label="Name" id="fullWidth" />
+          <StyleTextField fullWidth label="Name" id="fullWidth" />
         </div>
         <div className="formStyle">
-          <TextField label="email" id="email" placeholder="Email" />
+          <StyleTextField label="email" id="email" placeholder="Email" />
 
-          <TextField label="Phone" id="email" placeholder="Phone" />
+          <StyleTextField label="Phone" id="email" placeholder="Phone" />
         </div>
         <div className="formStyle">
-          <TextField fullWidth label="Opinion" id="fullWidth" />
+          <StyleTextField fullWidth label="Opinion" id="fullWidth" />
         </div>
       </Box>
       <Button variant="contained" endIcon={<SendIcon />}>

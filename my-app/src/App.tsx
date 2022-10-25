@@ -49,7 +49,7 @@ function App() {
               default: { duration: 0.5 },
             }}
           >
-            Greedtings from Finland!
+            Greetings from Finland!
           </motion.div>
         </Typography>
         <HeaderContent />
